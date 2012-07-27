@@ -1,0 +1,4 @@
+curl --user shelby:_bantu_ \
+--data run="/root/src/bantu/test/sample_script.sh" \
+50.57.150.47:1337/execute;
+echo '\n'
