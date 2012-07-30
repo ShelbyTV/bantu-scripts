@@ -1,0 +1,9 @@
+{
+    "name": "bantu-scripts"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "redis-daos" : "git+ssh://git@github.com:mkrecny/bantu.git"
+  }
+  , "main": "./index.js"
+}
