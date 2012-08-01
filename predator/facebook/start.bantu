@@ -1,0 +1,3 @@
+curl --user shelby:_bantu_ \
+--data run="/root/src/utils/start_fb.sh" \
+50.57.137.61:1337/execute

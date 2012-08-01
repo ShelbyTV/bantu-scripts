@@ -1,4 +1,7 @@
 curl --user shelby:_bantu_ \
 --data run="ps -ef | grep fork | grep -v grep | awk '{print \$2}' | xargs kill -9; nohup node /root/src/predator-twitter/test/fork.js > /var/log/shelby/predator.log &" \
 50.57.150.47:1337/execute
-exit 0;
+
+curl --user shelby:_bantu_ \
+--data run="nohup node /root/src/predator-twitter/test/fork.js &> /var/log/shelby/predator.log &" \
+50.57.150.47:1337/execute
